@@ -25,8 +25,8 @@ BEGIN
         BLOCK "040904E4"
         BEGIN
             VALUE "FileVersion", "2.0.0.0"
-		    VALUE "FileDescription", "Text to Sound"
-            VALUE "LegalCopyright", "(C) 2014 - d.f.32"
+		    VALUE "FileDescription", "Text to Speach"
+            VALUE "LegalCopyright", "(C)2014 - d.f.32"
 			VALUE "CompanyName", "d.f.32"
             VALUE "OriginalFilename", "T2S.dll"
             

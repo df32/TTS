@@ -3,9 +3,12 @@
 #include "sapi.h"
 #include "sphelper.h"
 #include <iostream>
-#include "D:\Documents\Visual Studio 2010\Projects\rainmeter-plugin-sdk-master\API\RainmeterAPI.h"
-//#pragma comment(lib, "D:\\Documents\\Visual Studio 2010\\Projects\\rainmeter-plugin-sdk-master\\API\\x32\\Rainmeter.lib")
-
+#include "..\..\API\RainmeterAPI.h"
+#ifdef WIN64
+	#pragma comment(lib, "..\\..\\API\\x64\\Rainmeter.lib")
+#else
+	#pragma comment(lib, "..\\..\\API\\x32\\Rainmeter.lib")
+#endif
 
 
 

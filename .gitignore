@@ -1,11 +1,4 @@
-codex/
-DllTester/
-looper/
-PluginEmpty/
-PluginParentChild/
-PluginSystemVersion/
-SysColor/
-ttlrc_coder/
+SDKs/
 
 Debug/*
 Release/*
